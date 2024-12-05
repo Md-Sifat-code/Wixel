@@ -1,7 +1,7 @@
 import React from "react";
 import TypingEffect from "react-typing-effect"; // Import the typing effect library
 import hero from "/assets/dadasd.png";
-import { Link } from "react-router-dom";
+import { Link, Element } from "react-scroll"; // Import `Link` and `Element` from react-scroll
 
 export default function Hero() {
   return (
@@ -27,7 +27,14 @@ export default function Hero() {
             out, impresses clients, and drives professional opportunities
             effortlessly.
           </p>
-          <Link className="btn btn-primary px-8 sm:px-10 md:px-12 text-white font-bold border-none rounded-none mt-4 bg-gradient-to-r from-teal-400 to-teal-600">
+
+          {/* Scroll to Reason Section */}
+          <Link
+            to="reason-section" // The target ID to scroll to
+            smooth={true} // Enable smooth scrolling
+            duration={1200} // Duration of the scroll
+            className="btn btn-primary px-8 sm:px-10 md:px-12 text-white font-bold border-none rounded-none mt-4 bg-gradient-to-r from-teal-400 to-teal-600"
+          >
             Explore
           </Link>
         </div>

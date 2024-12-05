@@ -16,7 +16,7 @@ export default function Reason() {
   }, []);
 
   return (
-    <section>
+    <section id="reason-section">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 mt-44 px-4 md:px-0 gap-6">
         <div className="flex flex-col justify-center items-start">
           <h1 className="font-bold text-5xl text-black">
