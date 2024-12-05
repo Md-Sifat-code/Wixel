@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bo {
+  font-family: "Boogaloo", sans-serif;
+}
+
+.po {
+  font-family: "Poppins", sans-serif;
+}
