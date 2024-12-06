@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="container mx-auto grid grid-cols-1 px-4 lg:px-0 md:grid-cols-2 mt-10 gap-6">
         {/* Description */}
         <div className="flex flex-col justify-center items-start gap-3 text-center md:text-left">
-          <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-black">
+          <h1 className="font-bold text-2xl  lg:text-5xl text-black">
             <TypingEffect
               text={["A Website Service Company", "Wixel"]} // Combined texts for the typing effect
               speed={100} // Typing speed

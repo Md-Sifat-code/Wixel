@@ -19,7 +19,7 @@ export default function Reason() {
     <section id="reason-section">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 mt-44 px-4 md:px-0 gap-6">
         <div className="flex flex-col justify-center items-start">
-          <h1 className="font-bold text-5xl text-black">
+          <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-black">
             Why <span className="text-[#1a9096]">Wixel</span> Website
             <br /> Service?
           </h1>
@@ -37,7 +37,7 @@ export default function Reason() {
         </div>
         {/* cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 ">
-          <div className="grid grid-rows-3">
+          <div className="grid grid-rows-2 md:grid-rows-3">
             <div
               className="max-w-xs w-full bg-white rounded-lg shadow-lg p-6 m-4"
               data-aos="fade-up" // AOS animation
@@ -69,10 +69,10 @@ export default function Reason() {
                 share it with us to build that for you.
               </p>
             </div>
-            <div></div>
+            <div className=" hidden md:block "></div>
           </div>
           <div className="grid grid-rows-3">
-            <div></div>
+            <div className=" hidden md:block "></div>
             <div
               className="max-w-xs w-full bg-white rounded-lg shadow-lg p-6 m-4"
               data-aos="fade-up" // AOS animation
